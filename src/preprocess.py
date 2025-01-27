@@ -19,7 +19,7 @@ def predict_digit(image_path):
 
 
 
-image_path = 'image/guessnum.jpg'  #image taken from mnist itself due to incorrectly filtered self made input images. 
+image_path = 'image/guessnum.png'  #image taken from mnist itself due to incorrectly filtered self made input images. 
 digit = predict_digit(image_path)
 print(f'The predicted digit is: {digit}')
 
